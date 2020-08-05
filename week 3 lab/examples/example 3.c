@@ -10,11 +10,12 @@ int main ()
  printf("This is part of outer switch\n", a );
  switch(b)
  {
- case 2:
- printf("This is part of inner switch\n", a );
- break;
- default:
- printf("Inner switch default value\n");
+
+   case 2:
+   printf("This is part of inner switch\n", a );
+   break;
+   default:
+   printf("Inner switch default value\n");
  }
  break;
  default:
